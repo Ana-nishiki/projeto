@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz para casais</title>
+        <meta name="description" content="Um quiz interativo para testar os conhecimentos dos casais">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo para casais</h1>
+            <p>Um quiz divertido para casais testarem o quanto se conhecem — e rirem juntos no processo!</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p>Este não é um quiz qualquer — é um teste cheio de perguntas inusitadas, divertidas e, às vezes, completamente aleatórias para casais. Aqui, não tem certo ou errado (bom, quase nunca 😏). O objetivo é descobrir curiosidades sobre a pessoa que você ama, relembrar histórias engraçadas e, claro, dar boas risadas juntos.</p>
+                <p>Prepare-se para perguntas como: "Quem é mais provável de comer o último pedaço de pizza?" ou "Se virassem um filme, qual seria o gênero da relação de vocês?". É o tipo de jogo que pode render desde um momento fofo até aquela boa provocação carinhosa.</p>
+                <p>No fim, o mais importante é a diversão, mas… quem sabe vocês não descobrem algo novo um sobre o outro? 💕</p>
+            </section>
+            <!--Pergunta 1:-->
+            <section>
+                <h2>Pergunta 1: Se vocês fossem um prato de comida, qual seria? 🍝</h2>
+                <form>
+                     <input type="radio" value="Pizza" id="p1a" name="pergunta1">
+                         <label for="p1a">Pizza</label><br>
+                     <input type="radio" value="Yakisoba" id="p1b" name="pergunta1">
+                        <label for="p1a">Yakisoba</label><br>
+                     <input type="radio" value="Sushi" id="p1c" name="pergunta1">
+                        <label for="p1c">Sushi</label><br>
+                     <input type="radio" value="Hamburguer" id="p1d" name="pergunta1">
+                        <label for="p1d">Hamburguer</label><br>
+                </form>
+            </section>
+            <!-- Pergunta 2: -->
+             <section>
+                <h2>Pergunta 2: Qual mania do outro mais te faz rir?</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+             </section>
+             <!-- Pergunta 3: -->
+              <section>
+                <h2>Pergunta 3: Se o relacionamento fosse um filme, qual seria o título?</h2>
+                <form>
+                    <input type="text" id="p3" name="pergunta3" placeholder="digite aqui sua resposta...">
+                </form>
+              </section>
+              <!--Pergunta 4-->
+              <section>
+                <h2>Pergunta 4: Quem dorme mais rápido?</h2>
+                <form>
+                   <input type="radio" value="Eu" id="p4a" name="pergunta4">
+                   <label for="p4a">Eu</label><br>
+                   <input type="radio" value="Meu parceiro(a)" id="p4b" name="pergunta4">
+                   <label for="p4b">Meu parceiro(a)</label><br>
+                   <input type="radio" value="Ninguém, ficamos conversando" id="p4c" name="pergunta4">
+                   <label for="p4c">Ninguém, ficamos conversando</label><br>
+                   <input type="radio" value="um fica falando, e o outro dorme" id="p4d" name="pergunta4">
+                   <label for="p4d">um fica falando, e o outro dorme</label><br>
+                </form>
+              </section>
+              <!--Pergunta 5-->
+              <section>
+                <h2>Pergunta 5: Quem é mais competitivo nos jogos?</h2>
+                <form>
+                    <input type="radio" value="Eu" id="p5a" name="pergunta5">
+                   <label for="p5a">Eu</label><br>
+                    <input type="radio" value="Meu parceiro(a)" id="p5a" name="pergunta5">
+                   <label for="p5a">Meu parceiro(a)</label><br>
+                    <input type="radio" value="Os dois, e isso é perigoso" id="p5a" name="pergunta5">
+                   <label for="p5a">Os dois, e isso é perigoso</label><br>
+                    <input type="radio" value="Ninguém liga para ganhar" id="p5a" name="pergunta5">
+                   <label for="p5a">Ninguém liga para ganhar</label><br>
+                </form>
+              </section>
+              <!--Pergunta 6-->
+              <section>
+                <h2>Pergunta 6: Se o relacionamento tivesse uma trilha sonora, seria:</h2>
+                <form>
+                     <input type="radio" value="sertanejo" id="p6a" name="pergunta6">
+                     <label for="p6a">sertanejo</label><br>
+                     <input type="radio" value="rock" id="p6a" name="pergunta6">
+                     <label for="p6a">rock</label><br>
+                     <input type="radio" value="funk" id="p6a" name="pergunta6">
+                     <label for="p6a">funk</label><br>
+                     <input type="radio" value="Playlist aleatória" id="p6a" name="pergunta6">
+                     <label for="p6a">Playlist aleatória</label><br>
+                </form>
+              </section>
+              <!--Pergunta 7-->
+              <section>
+                <h2>Pergunta 7:  faça upload de uma imagem do animal que eu seria</h2>
+                <form>
+                  <input type="file" id="p6" name="pergunta 6">
+                </form>
+              </section>
+             <!--tabela de pontuacão-->
+             <section>
+              <h2>tabela de pontuacão</h2>
+              <table border="1">
+                <thead>
+                    <tr>
+                      <th>Pontuacão</th>
+                      <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>0-1 pontos</td>
+                  <td>Vocês se amam… mas claramente têm universos bem diferentes. E tá tudo bem, afinal, opostos se atraem!</td>
+                </tr>
+                <tr>
+                  <td>2-3 pontos</td>
+                  <td>Vocês se conhecem bem, mas ainda têm muito material para novas descobertas (e boas risadas)</td>
+                </tr>
+                <tr>
+                  <td>4-5 pontos</td>
+                  <td>Sintonia quase perfeita! Só não vale usar isso para prever o futuro… ainda!</td>
+                </tr>
+                <tr>
+                  <td>6 pontos</td>
+                  <td>Vocês são praticamente telepatas. Talvez até saibam o que o outro vai jantar hoje!</td>
+                </tr>
+                <tr>
+                  <td>7 pontos</td>
+                  <td>Alma gêmea detectada! Ou vocês se conhecem demais… ou passam tempo DEMAIS juntos 😏</td>
+                  </tr>
+                </tbody>
+                </table>
+             </section>
+             <!--Formulario de feedback-->
+             <section>
+              <h2>Nos conte o seu feedback</h2>
+              <form>
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name"><br>
+                 <label for="email">Email:</label> 
+                <input type="email" id="email" name="email"><br>
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea name="comentarios" id="comentarios" rows="10" cols="40" placeholder="digite aqui seu feedback"></textarea><br>
+                  <button>envie o feedback</button>
+                </fieldset>
+              </form>
+             </section>
+             </main>
+        <footer>
+            <p class="paragrafo-footer">&copy;Quiz de casais. todos os direitos reservados</p>
+            <p class="paragrafo-footer">Para conhecer mais sobre mim 
+            <a href="https://www.instagram.com/_clara.nishiki_SS" target="_blank">clique aqui</a>
+            </p>
+
+        </footer>
+    </body>
+</html>
